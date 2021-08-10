@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const FriendItem = () => {
+import * as Styled from './styled';
+
+const FriendItem = (props) => {
+    const { id, name, avatar, isOnline } = props
     return (
-        <div>
-            
-        </div>
+        <Styled.Item>
+            <Styled.Status isOnline={ isOnline }></Styled.Status>
+            <Styled.Avatar src={ avatar } />
+            <Styled.Name>{ name }</Styled.Name>
+        </Styled.Item>
     )
 }
 
