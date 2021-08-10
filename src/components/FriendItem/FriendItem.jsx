@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import * as Styled from './styled';
 
 const FriendItem = (props) => {
-    const { id, name, avatar, isOnline } = props
+    const { name, avatar, isOnline } = props
     return (
         <Styled.Item>
             <Styled.Status isOnline={ isOnline }></Styled.Status>
@@ -13,4 +14,10 @@ const FriendItem = (props) => {
     )
 }
 
+
+FriendItem.propTypes = {
+    name: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired
+}
 export default FriendItem;
