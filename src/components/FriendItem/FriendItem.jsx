@@ -4,15 +4,16 @@ import PropTypes from 'prop-types';
 import * as Styled from './styled';
 
 const FriendItem = (props) => {
-    const { name, avatar, isOnline } = props
+    const { name, avatar, isOnline } = props;
+    
     return (
         <Styled.Item>
-            <Styled.Status isOnline={ isOnline }></Styled.Status>
-            <Styled.Avatar src={ avatar } />
-            <Styled.Name>{ name }</Styled.Name>
+            <Styled.Status isOnline={isOnline}></Styled.Status>
+            <Styled.Avatar src={avatar} />
+            <Styled.Name>{name}</Styled.Name>
         </Styled.Item>
     )
-}
+};
 
 
 FriendItem.propTypes = {

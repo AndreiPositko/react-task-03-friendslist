@@ -5,19 +5,13 @@ import FriendItem from '../FriendItem';
 
 import * as Styled from './styled';
 
-const FriendsList = (props) => {
-    const { friends } = props;
+const FriendsList = ({friends}) => {
 
     return (
         <Styled.Container>
             <Styled.Profile>
                 {friends.map((friend) =>
-                    <FriendItem
-                        key={friend.id}
-                        avatar={friend.avatar}
-                        name={friend.name}
-                        isOnline={friend.isOnline}
-                    />
+                    <FriendItem {...friend} key={ friend.id}/>
                 )}
             </Styled.Profile>
         </Styled.Container>
