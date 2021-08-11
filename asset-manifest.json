@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-task-03-friendslist/static/css/main.fa9f97a9.chunk.css",
+    "main.js": "/react-task-03-friendslist/static/js/main.0bd37bcb.chunk.js",
+    "main.js.map": "/react-task-03-friendslist/static/js/main.0bd37bcb.chunk.js.map",
+    "runtime-main.js": "/react-task-03-friendslist/static/js/runtime-main.4b662492.js",
+    "runtime-main.js.map": "/react-task-03-friendslist/static/js/runtime-main.4b662492.js.map",
+    "static/js/2.72019b67.chunk.js": "/react-task-03-friendslist/static/js/2.72019b67.chunk.js",
+    "static/js/2.72019b67.chunk.js.map": "/react-task-03-friendslist/static/js/2.72019b67.chunk.js.map",
+    "index.html": "/react-task-03-friendslist/index.html",
+    "static/css/main.fa9f97a9.chunk.css.map": "/react-task-03-friendslist/static/css/main.fa9f97a9.chunk.css.map",
+    "static/js/2.72019b67.chunk.js.LICENSE.txt": "/react-task-03-friendslist/static/js/2.72019b67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b662492.js",
+    "static/js/2.72019b67.chunk.js",
+    "static/css/main.fa9f97a9.chunk.css",
+    "static/js/main.0bd37bcb.chunk.js"
+  ]
+}
